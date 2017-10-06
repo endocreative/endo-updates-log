@@ -194,7 +194,6 @@ class Endo_Updates_Log {
 	{
 		$columns = array(
 		    'cb' => '<input type="checkbox" />',
-		    'title'	=> 'Title',
 		    'date' => __( 'Date' ),
 		    'item' => __( 'Item' ),
 		    'version' => __( 'Version' ),
