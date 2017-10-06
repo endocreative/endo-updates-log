@@ -228,7 +228,7 @@ class Endo_Updates_Log {
                }
                break;
            case 'version' :
-           	echo get_post_meta( $post_id, '_log_version', true );
+           	echo get_post_meta( $post_id, '_log_version', true ) ? get_post_meta( $post_id, '_log_version', true ) : 'not provided';
         }
 	}
 
